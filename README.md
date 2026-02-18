@@ -45,6 +45,14 @@ The lab simulates an enterprise identity scenario where **hundreds or thousands 
 ![Get-MgContext Output](06-get-mgcontext.png)  
 *Validated authenticated account, tenant, and permission scopes.*
 
+## Provisioning Script (Code Evidence)
+
+- Developed a PowerShell script to automate user creation
+- Ensured consistent naming conventions and attributes
+- Designed the script to support large-scale provisioning
+
+![Provisioning Script Code](07-provisioning-script.png)  
+*PowerShell script used to provision users in bulk.*
 ---
 
 ## Bulk User Provisioning Automation
