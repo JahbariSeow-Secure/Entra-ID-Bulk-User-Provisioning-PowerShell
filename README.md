@@ -28,7 +28,7 @@ The lab simulates an enterprise identity scenario where **hundreds or thousands 
 - Configured PowerShell execution policy at the **current user scope**
 - Imported required Graph modules for user management
 
-![Microsoft Graph Module Installation](screenshots/01-install-graph-module.png)  
+![Microsoft Graph Module Installation](01-install-graph-module.png)  
 *Installing the Microsoft Graph PowerShell SDK.*
 
 ---
@@ -39,10 +39,10 @@ The lab simulates an enterprise identity scenario where **hundreds or thousands 
 - Requested `User.ReadWrite.All` scope for user provisioning
 - Verified authentication and tenant context
 
-![Graph Connected](screenshots/01-graph-connected.png)  
+![Graph Connected](01-graph-connected.png)  
 *Successful connection to Microsoft Graph showing tenant ID.*
 
-![Get-MgContext Output](screenshots/06-get-mgcontext.png)  
+![Get-MgContext Output](06-get-mgcontext.png)  
 *Validated authenticated account, tenant, and permission scopes.*
 
 ---
@@ -53,21 +53,8 @@ The lab simulates an enterprise identity scenario where **hundreds or thousands 
 - Created users programmatically instead of manual portal entry
 - Displayed real-time creation output during script execution
 
-![Script Running](screenshots/02-script-running.png)  
+![Script Running](02-script-running.png)  
 *PowerShell script actively provisioning users.*
-
----
-
-## Duplicate Handling & Error Management
-
-- Implemented logic to detect duplicate UPNs
-- Automatically appended numeric suffixes to ensure uniqueness
-- Prevented script failures during large-scale provisioning
-
-![Duplicate Handling](screenshots/03-duplicate-handled.png)  
-*Duplicate UPN resolved automatically by the script.*
-
----
 
 ## Validation & Results
 
@@ -75,10 +62,10 @@ The lab simulates an enterprise identity scenario where **hundreds or thousands 
 - Exported provisioning results to a CSV file for auditing
 - Confirmed successful and repeatable automation
 
-![Entra ID Users](screenshots/04-entra-portal-users.png)  
+![Entra ID Users](04-entra-portal-users.png)  
 *Provisioned users visible in the Entra ID portal.*
 
-![Results CSV](screenshots/05-results-csv.png)  
+![Results CSV](05-results-csv.png)  
 *CSV output file capturing provisioning results.*
 
 ---
