@@ -1,5 +1,4 @@
 
-Automate the provisioning of 1,000+ user accounts into Microsoft Entra ID (Azure AD) using the Microsoft Graph PowerShell SDK.
 # Microsoft Entra ID – Automated User Provisioning with PowerShell & Microsoft Graph
 
 This project demonstrates automated **large-scale user provisioning** in **Microsoft Entra ID** using **PowerShell** and the **Microsoft Graph SDK**.
